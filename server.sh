@@ -24,24 +24,7 @@ npm install
 
 # Add environment variables
 cat <<EOF > .env
-EMAIL=himpreetak@gmail.com
-PASSWORD=Himanshu
-
-
-PORT=3000
-CONNECTION_STRING=mongodb+srv://mushraf1786:Mushraf@webdevmongodb1.tgpz9v3.mongodb.net/devchat
-JWT_SECRET=cnmsjkenfkljnsjklgnsdljkfjsdkcnmsa4rw4jljsdfl
-NODE_ENV=development
-
-CLODUINARY_CLOUD_NAME=dqlcy9wmd
-CLODUINARY_API_KEY=513937327371915
-CLODUINARY_API_SECRET=9XnoWAmjQOP-XhuRbT1cIEm-99c
-
-TEAM_EMAIL=devchatapplication@gmail.com
-PASSWORD=lrlp wbvm lhlx rmxc
-FRONTEND_URL=http://localhost:5173
-
-SESSION_SECRET=fjrm3nrjfks03me3j
+// env data shouldnt be hard coded ,in case of developement itll be okh not preferred in developement 
 EOF
 
 # Start your app with PM2
